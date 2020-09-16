@@ -15,5 +15,6 @@ result = customers_api.delete(customer_id)
 if result.success():
     print(result.body)
     print("success")
+    print("Hello"!)
 elif result.error():
     print(result.errors)
